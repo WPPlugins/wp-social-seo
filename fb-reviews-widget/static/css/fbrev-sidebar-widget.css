@@ -1,0 +1,87 @@
+/*-------------------------------- sidebar widget --------------------------------*/
+.fbrev-sidebar-widget {
+  margin: 0 0 10px;
+}
+
+.fbrev-sidebar-widget select {
+  width: 100%;
+}
+
+.fbrev-sidebar-widget label,
+.fbrev-sidebar-widget button,
+.fbrev-sidebar-widget input[type="text"] {
+  display: block;
+  width: 100%;
+  clear: both;
+  margin: 10px 0 0;
+}
+
+.fbrev-sidebar-widget button {
+  color: #fff;
+  padding: 5px;
+  border: none;
+  background: #4080ff;
+  cursor: pointer;
+}
+
+.fbrev-sidebar-widget button:hover {
+  background: #405fff;
+}
+
+.fbrev-page {
+  margin: 4px 0;
+  padding: 6px;
+  border: 1px solid #eee;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.fbrev-page.active, .fbrev-page:hover {
+  background: #eee;
+}
+
+.fbrev-page-photo {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  vertical-align: middle;
+  box-shadow: 0 0 2px rgba(0,0,0,.12),0 2px 4px rgba(0,0,0,.24);
+}
+
+.fbrev-page-name {
+  display: inline-block;
+  margin: 4px 16px;
+}
+
+.fbrev-options-toggle {
+  padding: 10px;
+  margin: 10px 0 0;
+  cursor: pointer;
+  border: 1px solid #dbdbdb;
+  background: #eee url('/wp-content/plugins/fb-reviews-widget/static/img/button-down-black.svg') no-repeat right;
+}
+
+.fbrev-options {
+  padding: 0px 4px;
+}
+
+.fbrev-form-group {
+    margin: 10px 0 0;
+}
+
+.fbrev-disabled label,
+.fbrev-disabled small {
+  opacity: .7;
+}
+
+.fbrev-pro {
+  color: #fff;
+  padding: 6px;
+  border-radius: 3px;
+  background: #00bf54;
+}
+
+.fbrev-pro a {
+  color: #fff;
+  text-decoration: underline;
+}

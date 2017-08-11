@@ -1,0 +1,106 @@
+#wpcontent {
+  font-size: 14px;
+  background-color:#fafafa;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.fbrev-facebook {
+  color: #4267b2;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.fbrev-setting {
+  position: relative;
+  margin: 20px 0 0;
+}
+.fbrev-pages {
+    margin-top: 20px;
+    max-width: 265px;
+}
+.version {
+  position: absolute;
+  top: 6px;
+  right: 16px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  display: inline-block;
+  margin: 20px 0 0;
+  padding: 6px 10px;
+  font-size: 12px;
+  line-height: 14px;
+  color: #FFF;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  white-space: nowrap;
+  vertical-align: baseline;
+  background-color: #999;
+}
+
+.twitter > iframe {
+  vertical-align: bottom !important;
+}
+
+.googleplus > div {
+  vertical-align: bottom !important;
+}
+
+#fbrev-shortcode,
+#fbrev-mod-shortcode {
+  width: 100%;
+  overflow: auto;
+  border: 0;
+  outline: 0;
+  min-height: 184px;
+  padding: 0;
+  color: #555;
+  font-size: 13px;
+  resize: none;
+  background-color: #fff;
+  box-shadow: none !important;
+}
+#setting input[type="text"] {
+    border: 1px solid #ddd;
+    box-shadow: none;
+    height: 30px;
+    padding: 4px;
+    width: 400px;
+}
+input[type="checkbox"] {
+  margin-right: 6px;
+  vertical-align: baseline !important;
+}
+
+input[type="checkbox"]:checked:before {
+  margin: 0 !important;
+}
+.fbrev-setting select {
+    border: 1px solid #ddd !important;
+}
+.fbrev-page div {
+    cursor: pointer;
+    display: inline-flex;
+    margin-left: 12px;
+    padding: 13px 0;
+}
+.fbrev-page {
+    border: 1px solid #eee;
+    margin-top: 5px;
+    padding: 7px 14px;
+}
+.fbrev-page.active, .fbrev-page:hover{
+    background: #eee none repeat scroll 0 0;    
+}
+.fbrev-setting .wp-get-place.btn.btn-block.btn-primary {
+    max-width: 80%;
+}
+.fbrev-pages {
+    display: inline-block;
+    min-width: 372px !important;
+}
+.fbrev-setting .wp-get-place.btn.btn-block.btn-primary {
+    max-width: 400px !important;
+}
